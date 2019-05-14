@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css.css" rel="stylesheet">
+</head>
+<body>
+<div class="mainblock">
+<div class="form_block">
+    <span class="title"> Добавление новых тегов</span>
+    <form id="redactor">
+        <p><select id="teg" size="1"  name="teg">
+            <option disabled>Выберите тэг</option>
+            <option value="a">a - ссылка</option>
+            <option value="strong">strong - жирный</option>
+            <option value="h1">h1- заголовок </option>
+
+        </select></p>
+        <p><b id="label1">Текст:</b><br>
+            <input id="input1" type="text" size="40">
+        </p>
+        <p><b id="label2">Ссылка:</b><br>
+            <input id="input2" type="text" size="40">
+        </p>
+        <p><b id="label3">class:</b><br>
+            <input id="input3" type="text" size="40">
+        </p>
+        <p><input id="butt" type="button" value="Добавить Элемент"></p>
+    </form>
+</div>
+<div id="rezults">
+    <span class="title"> Результаты</span>
+
+</div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
